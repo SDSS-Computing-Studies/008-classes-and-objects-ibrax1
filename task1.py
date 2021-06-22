@@ -26,11 +26,59 @@ class student:
 
     # properties should be listed first
 
-    def __init__(): # You will need to create your own input parameters for all methods
-        pass
+    def __init__(self, name, studentNumber, grade): # You will need to create your own input parameters for all methods
+        self.name = name
+        self.studentNumber = studentNumber
+        self.grade = grade
+        # self.courses = courses
+        # self.grades = grades
+        print("I am a student named " + self.name + ".")
+    def methods(self):
+        print("Do you want to see:")
+        print("1. Average Grades")
+        print("2. Honor Roll")
+        print("3. My Courses")
+        print("4. My Grade in Any Course")
+        print("5. My Courses in a list")
+        print("6. My Grades in a list")
+        command = input("Enter a number (1-6): ")
+        return int(command)
 
-    def __del__():
-        pass
+    def func(self, command):
+        if command == 1:
+            self.average()
+        elif command == 2:
+            self.hr()
+        elif command == 3:
+            self.courselist()
+        elif command == 4:
+            self.grade1course()
+        elif command == 5:
+            self.getCourses()
+        elif command == 6:
+            self.getGrades()
+        
+    def average(self):
+        print(1)
+    def hr(self):
+        print(2)
+    def courselist(self):
+        print(3)
+    def grade1course(self):
+        print(4)
+    def getCourses(self, list):
+        for x in list:
+            print(x)
+    courses = ["Math, Pop, pepsi, gogy, doog"]
+    def getGrades(self, list1):
+        for x in list1:
+            print(x)
+    grades = [99, 46, 70, 37, 67]
+
+
+
+    def __del__(self):
+        print("goodbye. "+ str(self.name) + " has left the room.")
 
     def average(self):
         pass
