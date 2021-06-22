@@ -43,12 +43,12 @@ class student:
         print("6. My Grades in a list")
         command = input("Enter a number (1-6): ")
         return int(command)
-
+        
     def func(self, command):
         if command == 1:
             self.average()
         elif command == 2:
-            self.hr()
+            self.getHonorRoll()
         elif command == 3:
             self.courselist()
         elif command == 4:
@@ -60,19 +60,17 @@ class student:
         
     def average(self):
         print(1)
-    def hr(self):
+    def getHonorRoll(self):
         print(2)
     def courselist(self):
         print(3)
     def grade1course(self):
         print(4)
     def getCourses(self, list):
-        for x in list:
-            print(x)
+        print(list)
     courses = ["Math, Pop, pepsi, gogy, doog"]
     def getGrades(self, list1):
-        for x in list1:
-            print(x)
+        print(list1)
     grades = [99, 46, 70, 37, 67]
 
 
