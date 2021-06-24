@@ -59,9 +59,9 @@ class student:
             self.getGrades()
         
     def average(self):
-        print("cool")
-    def getHonorRoll(self):
-        print(2)
+        for x in courses:
+            def getHonorRoll(self):
+                print(2)
     def courselist(self):
         print(3)
     def grade1course(self):
@@ -70,16 +70,21 @@ class student:
         print(list)
     courses = ["Math, Pop, pepsi, gogy, doog"]
     def getGrades(self, list1):
-        print(list1)
+            print(list1)
+    self = ()
     grades = [99, 46, 70, 37, 67]
+    def average(self, courses):
+        for x in courses:
+            y = (x+x)
+            y = (y+x)
+        return(y)
+    print (average(self, courses))
 
-
-
-    def __del__(self):
+def __del__(self):
         print("goodbye. "+ str(self.name) + " has left the room.")
 
-    def average(self):
-        pass
+def average(self):
+    pass
 
 def main():
     # This contains test data that will be used by the autograder.
