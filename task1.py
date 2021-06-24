@@ -58,17 +58,13 @@ class student:
         elif command == 6:
             self.getGrades()
         
-    def average(self):
-        for x in courses:
-            def getHonorRoll(self):
-                print(2)
+
     def courselist(self):
         print(3)
     def grade1course(self):
         print(4)
     def getCourses(self, list):
         print(list)
-    courses = ["Math, Pop, pepsi, gogy, doog"]
     def getGrades(self, list1):
             print(list1)
     self = ()
@@ -78,7 +74,7 @@ class student:
             y = (x+x)
             y = (y+x)
         return(y)
-    print (average(self, courses))
+    print (average(self, getCourses))
 
 def __del__(self):
         print("goodbye. "+ str(self.name) + " has left the room.")
