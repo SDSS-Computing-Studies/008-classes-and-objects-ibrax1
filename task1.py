@@ -59,7 +59,7 @@ class student:
             self.getGrades()
         
     def average(self):
-        print(1)
+        print("cool")
     def getHonorRoll(self):
         print(2)
     def courselist(self):
